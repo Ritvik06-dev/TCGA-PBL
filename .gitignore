@@ -1,0 +1,14 @@
+@"
+features/
+TCGA/
+brca_tcga_pan_can_atlas_2018/
+.cache/
+__pycache__/
+*.npy
+*.npz
+*.h5
+*.tar.gz
+*.gz
+cdr.xlsx
+TCGA_Reports.csv
+"@ | Set-Content .gitignore
