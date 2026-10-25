@@ -11,4 +11,11 @@ __pycache__/
 *.gz
 cdr.xlsx
 TCGA_Reports.csv
-"@ | Set-Content .gitignore
+"@ | Set-Content .gitignoremetabric/brca_metabric/
+
+metabric/brca_metabric/
+metabric/*.tar.gz
+metabric/*.csv
+data_samples.xlsx
+slides/
+patches/
